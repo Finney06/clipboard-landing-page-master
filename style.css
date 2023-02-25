@@ -32,6 +32,10 @@ h1, h2, h3{
 }
 
 /* MOBILE VIEWPORT */
+section, header {
+  padding: 3rem;
+}
+
 h1 {
   font-size: 3rem;
   margin-bottom: 2rem;
@@ -54,7 +58,6 @@ p {
 header {
   background-image: url(images/bg-header-mobile.png);
   background-repeat: no-repeat;
-  padding: 3rem;
 }
 
 header img {
@@ -88,7 +91,6 @@ header img {
 
 /* SNIPPETS SECTION */
 .snippets-section {
-  padding: 3rem;
   margin-top: 6.5rem;
 }
 
@@ -98,6 +100,12 @@ header img {
 }
 
 /* CLIPBOARD SECTION */
+
 .clipboard-section img {
   width: 100%;
+}
+
+/* WORKFLOW SECTION */
+.feature img {
+  margin-bottom: 2.7rem;
 }
