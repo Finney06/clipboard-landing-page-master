@@ -1,23 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
 
 :root {
-    /* PRIMARY */
-    --Strong-Cyan: hsl(171, 66%, 44%);
-    --Light-Blue: hsl(233, 100%, 69%);
+  /* PRIMARY */
+  --Strong-Cyan: hsl(171, 66%, 44%);
+  --Light-Blue: hsl(233, 100%, 69%);
 
-    /* NEUTRAL */
-    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
-    --Grayish-Blue: hsl(201, 11%, 66%);
+  /* NEUTRAL */
+  --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+  --Grayish-Blue: hsl(201, 11%, 66%);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-  }
-  
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+/* MOBILE VIEWPORT */
+header {
+  background-image: url(images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  padding: 3rem;
+}
+
+header img {
+  margin: 6rem 0 5.2rem;
+}
+
+header h1 {
+  color: var(--Dark-Grayish-Blue);
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+header p {
+  color: var(--Grayish-Blue);
+  margin-bottom: 3rem;
+}
+
+.button {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.button button {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  color: white;
+  padding: 1.5rem;
+  width: 100%;
+  border-radius: 2.5rem;
+  border: 0;
+}
+
+.cyan-button {
+  background-color: var(--Strong-Cyan);
+}
+
+.blue-button {
+  background-color: var(--Light-Blue);
+}
