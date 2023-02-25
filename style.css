@@ -59,6 +59,7 @@ p {
 header {
   background-image: url(images/bg-header-mobile.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header img {
@@ -148,3 +149,7 @@ header img {
   margin-right: 3.5rem;
 }
 
+/* DESKTOP VIEWPORT  */
+@media (min-width: 700px) {
+
+}
