@@ -39,6 +39,7 @@ h1 {
 
 h2 {
   margin-bottom: 1.75rem;
+  font-size: 2.864rem;
 }
 
 h3 {
@@ -96,3 +97,7 @@ header img {
   margin-bottom: 3rem;
 }
 
+/* CLIPBOARD SECTION */
+.clipboard-section img {
+  width: 100%;
+}
