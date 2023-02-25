@@ -27,7 +27,29 @@ body {
   font-size: 1.8rem;
 }
 
+h1, h2, h3{
+  color: var(--Dark-Grayish-Blue);
+}
+
 /* MOBILE VIEWPORT */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  margin-bottom: 1.75rem;
+}
+
+h3 {
+  margin-bottom: 0.7rem;
+}
+
+p {
+  color: var(--Grayish-Blue);
+  margin-bottom: 5.1rem;
+}
+
 header {
   background-image: url(images/bg-header-mobile.png);
   background-repeat: no-repeat;
@@ -38,20 +60,9 @@ header img {
   margin: 6rem 0 5.2rem;
 }
 
-header h1 {
-  color: var(--Dark-Grayish-Blue);
-  font-size: 3rem;
-  margin-bottom: 2rem;
-}
-
-header p {
-  color: var(--Grayish-Blue);
-  margin-bottom: 3rem;
-}
-
 .button {
   display: grid;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .button button {
@@ -73,3 +84,15 @@ header p {
 .blue-button {
   background-color: var(--Light-Blue);
 }
+
+/* SNIPPETS SECTION */
+.snippets-section {
+  padding: 3rem;
+  margin-top: 6.5rem;
+}
+
+.snippets-image img {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
