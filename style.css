@@ -157,6 +157,13 @@ button {
 
 /* DESKTOP VIEWPORT  */
 @media (min-width: 700px) {
+
+  section,
+header,
+.footer-section {
+  padding: 8rem;
+}
+
   header p {
     max-width: 605px;
     text-align: center;
@@ -170,9 +177,6 @@ button {
     max-width: 600px;
   }
 
-  .snippets-section {
-    padding: 0;
-  }
 
   .snippets-section p {
     max-width: 685px;
@@ -182,7 +186,7 @@ button {
 
   .snippets-grid {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(2, 1fr);
     gap: 6rem;
   }
 
@@ -195,7 +199,7 @@ button {
   .workflow {
     display: grid;
     gap: 2rem;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .feature p {
@@ -204,6 +208,24 @@ button {
 
   .company-section {
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10rem;
+  }
+
+  .download-section p {
+    max-width: 700px;
+    margin: 0 auto 5.1rem;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer-paragraphs {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    text-align: left;
   }
 }
