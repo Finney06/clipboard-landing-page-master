@@ -89,10 +89,20 @@ button {
 
 .cyan-button {
   background-color: var(--Strong-Cyan);
+  transition: all 300ms ease-in-out;
+}
+
+.cyan-button:hover {
+  box-shadow: 0 0.1875rem 0 0 #1d907fbb, 0 0.625rem 2rem 0 #1d907faa;
 }
 
 .blue-button {
   background-color: var(--Light-Blue);
+  transition: all 300ms ease-in-out;
+}
+
+.blue-button:hover {
+  box-shadow: 0 0.1875rem 0 0 #3c4fddbb, 0 0.625rem 2rem 0 #3c4fddaa;
 }
 
 /* SNIPPETS SECTION */
@@ -130,7 +140,7 @@ button {
 
 /* FOOTER SECTION  */
 .footer-section {
-background-color: rgba(159, 171, 178, 0.12);;
+  background-color: rgba(159, 171, 178, 0.12);
 }
 
 .footer-section img {
@@ -157,12 +167,11 @@ background-color: rgba(159, 171, 178, 0.12);;
 
 /* DESKTOP VIEWPORT  */
 @media (min-width: 700px) {
-
   section,
-header,
-.footer-section {
-  padding: 8rem;
-}
+  header,
+  .footer-section {
+    padding: 8rem;
+  }
 
   header p {
     max-width: 605px;
@@ -176,7 +185,6 @@ header,
     margin: 0 auto;
     max-width: 600px;
   }
-
 
   .snippets-section p {
     max-width: 685px;
