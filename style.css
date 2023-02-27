@@ -28,12 +28,16 @@ body {
   font-weight: 400;
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
   color: var(--Dark-Grayish-Blue);
 }
 
 /* MOBILE VIEWPORT */
-section, header, .footer-section {
+section,
+header,
+.footer-section {
   padding: 3rem;
 }
 
@@ -71,13 +75,13 @@ header img {
   gap: 2rem;
 }
 
- button {
+button {
   font-family: "Bai Jamjuree", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
   color: white;
-  padding: 1.5rem;
+  padding: 1.5rem 2rem;
   width: 100%;
   border-radius: 2.5rem;
   border: 0;
@@ -109,6 +113,8 @@ header img {
 
 /* WORKFLOW SECTION */
 .feature img {
+  height: 3.2rem;
+  width: 5rem;
   margin-bottom: 2.7rem;
 }
 
@@ -132,7 +138,7 @@ header img {
   margin: 3rem auto;
 }
 
- .footer-paragraphs p {
+.footer-paragraphs p {
   font-weight: 400;
   margin-bottom: 3rem;
 }
@@ -151,5 +157,53 @@ header img {
 
 /* DESKTOP VIEWPORT  */
 @media (min-width: 700px) {
+  header p {
+    max-width: 605px;
+    text-align: center;
+    margin: 0 auto 5.1rem;
+  }
 
+  .button {
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+
+  .snippets-section {
+    padding: 0;
+  }
+
+  .snippets-section p {
+    max-width: 685px;
+    text-align: center;
+    margin: 0 auto 5.1rem;
+  }
+
+  .snippets-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 6rem;
+  }
+
+  .snippets-text,
+  .snippets-text p {
+    text-align: left;
+    max-width: 407px;
+  }
+
+  .workflow {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, auto);
+  }
+
+  .feature p {
+    max-width: 500px;
+  }
+
+  .company-section {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+  }
 }
