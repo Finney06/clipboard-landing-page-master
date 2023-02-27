@@ -93,6 +93,7 @@ button {
 }
 
 .cyan-button:hover {
+  cursor: pointer;
   box-shadow: 0 0.1875rem 0 0 #1d907fbb, 0 0.625rem 2rem 0 #1d907faa;
 }
 
@@ -102,6 +103,7 @@ button {
 }
 
 .blue-button:hover {
+  cursor: pointer;
   box-shadow: 0 0.1875rem 0 0 #3c4fddbb, 0 0.625rem 2rem 0 #3c4fddaa;
 }
 
