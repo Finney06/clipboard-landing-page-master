@@ -241,3 +241,8 @@ button {
     text-align: left;
   }
 }
+
+
+ul {
+   list-style-color: red;
+}
